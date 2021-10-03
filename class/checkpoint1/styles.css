@@ -1,0 +1,77 @@
+h1 {
+    color: #33485e;
+}
+
+img {
+    max-width: 600px;
+    width: 100%;
+}
+
+h2.heading {
+    background-color: #37474f;
+    color: white;
+    border: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial;
+}
+
+span.highlight {
+    background-color: #37474f;
+    color: white;
+    border: 2px;
+    padding: 2px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+p.italics{
+    font-style: italic;
+    text-align: center;
+    color: #37474f;
+}
+
+h1.title{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h5.dates{
+    font-style: italic;
+    font-family:'Alegreya Sans SC', sans-serif;
+}
+
+#container{
+    width: 600px;
+    text-align: left;
+}
+
+#floated{
+    float: right;
+    width: 250px;
+    text-align: center;
+}
+
+div.text{
+    margin-right: 100000px
+    margin-left 100000px
+}
+
+#socials{
+    text-align: center;
+}
+
+span.line{
+    border-left: 6px grey;
+    height: 10px;
+}
+
+h4.font{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+}
+
+h3.font{
+    font-family:'Alegreya Sans SC', sans-serif;
+    font-weight: bold;
+}

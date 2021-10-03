@@ -2,42 +2,53 @@
 <html lang="en">
     <head>
         <title>Resume</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Josefin+Sans:wght@100&display=swap');
+        </style>
     </head>
     <body>
         <!-- I built this myself! -->
-        <h1>Brittany Renee Mayes</h1>
-        <img src="../img/brittany-castle.jpg" alt="Brittany Renee Mayes"/>
-        <ul>
-            <li>brmayes@umd.edu</li>
-            <li><a href="https://www.linkedin.com/in/brittanymayes/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://twitter.com/BritRenee_/" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/brmayes/" target="_blank">Github</a></li>
-        </ul>
-        <p><strong>Maker of graphics and thinker of processes</strong></p>
-        <p>
-            I'm a graphics reporter at the Washington Post. I am also an adjunct professor at The University of Maryland, College Park. I was raised by NPR Visuals, and I'm an alumna of the beautiful University of North Carolina at Chapel Hill.
-        </p>
-        <p>
-            Recently, I've been thinking about: Processes, aspirational skills, fostering collaboration, hiring and organizational hierarchy. Talk to me about any of these!
-        </p>
+        <div class = "text">
+        <h1 class="title">BRITTANY RENEE MAYES</h1>
+        <p class="italics">Maker of graphics and thinker of processes</p>
+        <hr />
+        <div id = "socials">
+            <p> brmayes@umd.edu <span class = "line"> </span><a href="https://www.linkedin.com/in/brittanymayes/" target="_blank">LinkedIn</a><span class = "line"> </span> <a href="https://twitter.com/BritRenee_/" target="_blank">Twitter</a> <span class = "line"> </span><a href="https://github.com/brmayes/" target="_blank">Github</a></p>
+        </div>
+        <div id = "container">
+            <div id = "floated">
+            <img src="https://github.com/hzakharenko/jour352/blob/main/class/checkpoint1/img/brittany-castle.jpg?raw=true" width = 350px id= "image"/>
+            </div>
+                <p>
+                    I'm a <span class= "highlight">graphics reporter at the Washington Post</span>. I am also an adjunct professor at The University of Maryland, College Park. I was raised by NPR Visuals, and I'm an alumna of the beautiful University of North Carolina at Chapel Hill.
+                </p>
+                <p>
+                    Recently, I've been thinking about: Processes, aspirational skills, fostering collaboration, hiring and organizational hierarchy. Talk to me about any of these!
+                </p>
+
+        </div>
         <h2 class = "heading">Experience</h2>
         <!-- First job -->
-        <h3>Graphics reporter</h3>
-        <h4>The Washington Post</h4>
-        <h5>June 2018 - Current</h5>
+        <h3 class = "font">Graphics reporter</h3>
+        <h4 class = "font">The Washington Post</h4>
+        <h5 class = "dates">June 2018 - Current</h5>
         <p>I create graphics from scratch for print and online. To do this work, I coordinate with reporters, designers and editors. I also assist in hiring and management of interns and help review team processes and workflows.</p>
 
+        <hr />
+
         <!-- Second job -->
-        <h3>Associate news apps developer</h3>
-        <h4>NPR</h4>
-        <h5>June 2016 - May 2018</h5>
+        <h3 class = "font">Associate news apps developer</h3>
+        <h4 class = "font">NPR</h4>
+        <h5 class = "dates">June 2016 - May 2018</h5>
         <p>I built static and interactive news graphics, largely in d3.js. I scraped, collected and cleaned data to analyze and chart. Additionally, I built, maintained and ran app rigs. I coordinated internship hiring and management.</p>
 
+        <hr />
+
         <!-- Third job -->
-        <h3>Digital editor (Fellowship)</h3>
-        <h4>New York Times Student Journalism Institute</h4>
-        <h5>May 2018</h5>
+        <h3 class = "font">Digital editor (Fellowship)</h3>
+        <h4 class = "font">New York Times Student Journalism Institute</h4>
+        <h5 class = "dates">May 2018</h5>
         <p>I structured web content, creating custom-built web pages on Wordpress. Additionally, I collected and analyzed census data and produced data visualizations for featured content in print and online.</p>
 
         <h2 class = "heading">Education</h2>
@@ -58,5 +69,6 @@
             <li>Photoshop</li>
             <li>Git versioning</li>
         </ul>
+    </div>
     </body>
 </html>
