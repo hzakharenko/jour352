@@ -1,0 +1,111 @@
+
+.logo{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    display: block;
+
+}
+    /* font-family: "Raleway", sans-serif; */
+.kitchen-intro{
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+
+
+body{
+    font-family: "Raleway", sans-serif;
+    width: 60%;
+    margin: 80px auto;
+
+}
+
+/* TOPPER SECTION */
+.topper{
+    width = 50%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 50px;
+}
+
+.topper h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #93b5af;
+    border-top: 2px dotted #93b5af;
+    border-bottom: 2px dotted #93b5af;
+    padding: 15px;
+    width: 80%
+    margin: auto;
+    display: block;
+}
+
+.topper .event-house-desc{
+    color: #93b5af;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+/* MENU SECTION */
+h3.headings{
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #DC0600;
+    border-bottom: 2px dotted #93b5af;
+    padding-bottom: 7px;
+    margin-bottom: 14px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    width: 40%
+    }
+
+.special{
+    background-color:#e1ebeb;
+    border: 2px dotted #93b5af;
+    padding: 0 12px;
+}
+
+.price{
+    font-style: italic;
+}
+
+.menu-option{
+    color: grey;
+}
+
+h6{
+    color: #DC0600;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+
+}
+
+ul{
+    list-style-type: square;
+}
+
+/* FOOTER */
+
+.footer img{
+    float: right;
+    margin-left: 25px;
+}
+.footer p{
+    color:#93b5af;
+}
+
+.footer .bold-black{
+    font-weight: bold;
+    color: black;
+}
+
+.footer a{
+    color: red;
+}
